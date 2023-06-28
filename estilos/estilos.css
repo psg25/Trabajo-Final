@@ -1,0 +1,257 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.menu-superior{
+  height: 150px;
+  margin: 0px;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  align-items: center;
+}
+.menu-superior img{
+  width: 15%;
+  margin: 0;
+  float: left;
+}
+.busqueda{
+  width: 25%;
+  margin: 100px 5px 5px auto;
+  color: black;
+  text-align: right;
+  border: none;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-right: 10px;
+  background-color: white;
+}
+.busqueda button{
+  color: white;
+  background-color: #fa8bb0;
+  border: none;
+  border-radius: 25px;
+  font-family: sans-serif;
+  padding: 5px;
+}
+nav {
+  margin: auto;
+  width: 100%;
+  height: 45px;
+  background-color: #baa8bb;
+  font-family: sans-serif;
+}
+
+.menu {
+  margin: auto;
+  width: 75%;
+  font-size: 20px;
+  text-align: center;
+}
+
+.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color: #baa8bb;
+  text-align: center;
+}
+
+.menu li {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+}
+
+.menu li a {
+  display: block;
+  text-decoration: none;
+  background-color: #baa8bb;
+  color: #fff;
+  padding: 10px 12px;
+  width: 180px;
+}
+
+.menu li:hover > ul {
+  display: block;
+}
+
+.menu li:hover {
+  background-color: #fa8bb0;
+}
+
+.sub-menu {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  background-color: #baa8bb;
+  width: 100%;
+}
+
+.sub-menu li {
+  float: none;
+}
+
+.sub-menu li a {
+  width: 100%;
+}
+
+.menu li:hover .sub-menu {
+  display: block;
+}
+
+.menu li a:hover {
+  background-color: #fa8bb0;
+  color: black;
+}
+  
+.carrusel {
+    width:100%;
+    height: 500px;
+    overflow:hidden;
+}
+
+.carrusel img{
+    width: 100%;
+    height: 500px;
+  }
+  .los-mas-comprados {
+    background: #baa8bb;
+    text-align: center;
+    padding: 20px;
+    padding-top: 50px;
+  }
+  
+  .los-mas-comprados h2 {
+    margin-bottom: 20px;
+    font-family: sans-serif;
+    font-weight:600;
+    color: white;
+    font-size: 30px;
+  }
+  
+  .los-mas-comprados .productos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 30px;
+  }
+  
+  .los-mas-comprados .productos img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+  
+  .los-mas-comprados .productos .button {
+    display: block;
+    border-radius: 25px;
+    text-align: center;
+    padding: 10px 20px;
+    background-color: #3be4d2;
+    color: white;
+    font-family: sans-serif;
+    text-decoration: none;
+    margin-top: 10px;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .contacto {
+    display: flex;
+    background: #fa8bb0;
+    justify-content: center;
+    font-family: sans-serif;
+    align-items: center;
+    padding: 40px;
+  }
+  
+  .contacto .texto-de-contacto {
+    flex: 1;
+    padding-right: 40px;
+    color: white;
+  }
+  
+  .contacto .formulario-de-contacto {
+    flex: 1;
+    padding: 30px;
+    background: white;
+    border-radius: 25px;
+  }
+  
+  .contacto h2 {
+    margin-bottom: 20px;
+    font-size: 30px;
+  }
+  
+  .contacto p {
+    margin-bottom: 10px;
+  }
+  
+  .contacto form {
+    padding: 20px;
+  }
+  
+  .contacto label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .contacto input[type="text"],
+  .contacto textarea {
+    width: 90%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  .contacto button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3be4d2;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  .contacto fieldset legend {
+    border: none;
+  }
+
+  .redes {
+    text-align: left;
+    padding: 5px;
+  }
+  
+  .redes h4 {
+    margin-bottom: 5px;
+  }
+  
+  .redes .redes-iconos {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+  .redes img{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+  }
+  .redes .redes-iconos a {
+    display: inline-block;
+    margin: 0 10px;
+    line-height: 10px;
+  }
+  footer{
+    text-align: center;
+    background-color: #333;
+    color: white;
+    font-family: sans-serif;
+    padding: 20px 50px;
+  }

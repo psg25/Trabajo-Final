@@ -2,8 +2,7 @@
 main {
   display: flex;
   flex-direction: column;
-  
-  ;
+  text-decoration: none;
 }
 .body-main{
   display: flex;

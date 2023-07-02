@@ -1,0 +1,62 @@
+
+.main-paquetes{
+display: flex;
+flex-direction: column;
+background-color: #baa8bb;
+
+}
+.titulo h1{
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+    margin-top: 10px;
+}
+.banner img{
+    width: 100%;
+    height: 500px
+}
+.paquetes-contenedor{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    grid-gap: 50px;
+margin: 50px 0px 50px 0px;
+}
+.card-paquete{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+}
+.card-paquete img {
+position:absolute;
+top: -10px; /* Ajusta este valor según sea necesario */
+left: -20px; /* Ajusta este valor según sea necesario */
+z-index: 1;
+    max-width: 80%;
+    min-width: 150px;
+    height: auto;
+  max-height: 150px; 
+   object-fit: cover;
+    margin-bottom: 10px;
+    border-radius: 100%;
+    margin-left: 50px;
+    border:solid 2px #3be4d2;
+  }
+  .contenedor-descripcion{
+    position: relative;
+    padding: 4px;
+    border: 3px solid #3be4d2;
+    width: 50%;
+    min-height: 120px;
+    text-align: center;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+    font-family: sans-serif;
+    margin-left: 100px;
+    background-color: white;
+    color: #7acdcd;
+}
+ 

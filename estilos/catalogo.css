@@ -22,6 +22,7 @@ aside{
   display: flex;
   flex-direction: column;
   gap: 20px;
+  font-family: sans-serif;
 }
 
 .sidebar h2 {
@@ -39,8 +40,7 @@ aside{
   margin: 10px;
   font-size: large;
   color: #fa8bb0;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: sans-serif;
 }
 .sidebar a:hover {
   color: #91294c;
@@ -75,6 +75,7 @@ aside{
   text-align: center;
   border-radius: 12px;
   transition: transform 0.3s ease;
+  font-family: sans-serif;
 }
 .card:hover {
   transform: scale(1.05);
@@ -93,13 +94,14 @@ max-height: 200px;
   flex-direction: row;
   justify-content: center;
   margin: 20px;
+  font-family: sans-serif;
 }
 .content > div:first-child {
   display: flex;
   flex-direction: column;
   gap: 10px;
   margin: 5px;
-  
+  font-family: sans-serif;
 
 }
 .sidebar2 img{

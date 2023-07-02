@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
 }
+/*Cabecera*/
 .menu-superior{
   height: 150px;
   margin: 0px;
@@ -35,8 +36,9 @@
   font-family: sans-serif;
   padding: 5px;
 }
+/*Fin de cabera*/
+/*Menu desplegable*/
 nav{
-  width: 100%;
   margin: auto;
 }
 
@@ -86,7 +88,8 @@ nav li ul li{
   top: 5px;
   right: 0;
 }
-  
+/*fin de menu despegable*/
+/*Carrusel*/
 .carrusel {
     width:100%;
     height: 500px;
@@ -97,6 +100,8 @@ nav li ul li{
     width: 100%;
     height: 500px;
   }
+/*Fin de carrusel*/
+/*Seccion los mas comprados*/
   .los-mas-comprados {
     background: #baa8bb;
     text-align: center;
@@ -141,6 +146,8 @@ nav li ul li{
     margin-left: auto;
     margin-right: auto;
   }
+/*Fin de seccion los mas buscados*/
+/*Formulario*/
   .contacto {
     display: flex;
     background: #fa8bb0;
@@ -148,6 +155,7 @@ nav li ul li{
     font-family: sans-serif;
     align-items: center;
     padding: 40px;
+    border: none;
   }
   
   .contacto .texto-de-contacto {
@@ -200,10 +208,9 @@ nav li ul li{
     border-radius: 25px;
     cursor: pointer;
   }
-  .contacto fieldset legend {
-    border: none;
-  }
 
+/*fin de formulario*/
+/*bloque de redes sociales*/
   .redes {
     text-align: left;
     padding: 5px;
@@ -228,6 +235,48 @@ nav li ul li{
     margin: 0 10px;
     line-height: 10px;
   }
+/*fin de bloque de redes sociales*/
+  /*contactanos*/
+  .container-contacto {
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+.contenido-contacto {
+    display: inline-flex;
+    background-color: #baa8bb;
+}
+
+.texto-contacto {
+    flex: 1;
+    padding: 40px;
+    color: white;
+    align-items: center;
+}
+
+.video-contacto {
+    flex: 1;
+    margin-left: 20px;
+    padding: 40px 0px;
+}
+
+.video-contacto iframe {
+    max-width: 500px;
+}
+
+.mapa-contacto {
+    text-align: center;
+    padding: 40px 20px;
+}
+.mapa-contacto h2{
+  color: #3be4d2;
+  padding-bottom: 20px;
+}
+.mapa-contacto iframe{
+  max-height: 250px;
+}
+ /*fin contactanos*/
+
   footer{
     text-align: center;
     background-color: #333;

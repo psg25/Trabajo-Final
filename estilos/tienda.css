@@ -1,0 +1,60 @@
+main{
+    display: flex;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+aside{
+    width: 15%;
+    padding: 10px;
+    background-color: #3be4d2;
+    text-decoration: none;
+    flex-direction: column;
+}
+section{
+    width: 70%;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+#caja1{
+    text-align: center;
+    background-color: white;
+}
+#caja2{
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: white;
+}
+#caja2 figure{
+    width: 40%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px dotted black;
+}
+#caja3{
+    text-align: center;
+}
+img{
+    width: 80%;
+    margin: 10px auto;
+    display: block;
+}
+figcaption{
+    margin: 10px;
+    text-align: center;
+}
+
+.local:hover{
+    transition: transform 0.5s;
+    transform: scale(1.2);
+    border-radius: 10px;
+}
+
+#protocolo{
+    width: 100%;
+}

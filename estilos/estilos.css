@@ -12,6 +12,10 @@
   background-color: white;
   align-items: center;
 }
+header{
+  display: flex;
+  flex-direction: column;
+}
 .menu-superior img{
   width: 15%;
   margin: 0;
@@ -60,7 +64,7 @@ nav ul > li{
   padding-right: auto;    
   background-color: #fa88b0;
   float: left;
-  width: 18%;
+  width: 20%;
 }
 
 nav li a{
